@@ -1,0 +1,29 @@
+.pricing-grid {
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.plan {
+  /* border: 1px solid white; */
+  flex: 1;
+  border-radius: 5px;
+  margin: 10px 20px;
+  padding: 5px 10px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+
+  flex:1;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+
+.plan > * {
+    flex:1 1 100%;
+  }
+
+  .plan .cta {
+    align-self:flex-end;
+  }
